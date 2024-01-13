@@ -33,7 +33,6 @@ main{
             font: 600 40px/180% Inter, sans-serif;
         }
         .description{
-            // padding-top: 8px;
             color: var(--Gray-500, #667085);
             font: 400 15px/200% Inter, sans-serif;
         }
@@ -53,11 +52,9 @@ main{
                 input{
                     width: 100%;
                     border: 2px solid #D9D9D9;
-                    padding-top: 15px;
-                    padding-bottom: 15px;
-                    padding-left: 4px;
-                    padding-right: 4px;
-                    border-radius: 5px;
+                    padding: 12px 16px;
+                    font: 400 15px/160% Inter, sans-serif;
+                    border-radius: 8px;
                     background-color: #fff;
                 }
                 ::-webkit-input-placeholder { /* Edge */
@@ -99,6 +96,12 @@ main{
                 }
                 label{
                     padding-left: 3px;
+                    
+                        color: #667085;
+                        flex-grow: 1;
+                        white-space: nowrap;
+                        font: 400 13px/154% Inter, sans-serif;
+                    
                 }
             }
             .forgot-password{
